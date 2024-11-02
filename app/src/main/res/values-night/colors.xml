@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="thumb_tint_moon">#FFFFFF</color>
+    <color name="number">#FFFFFFFF</color>
+    <color name="red">#B51B1B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_doff_color">#22252d</color>
+    <color name="black_doff_color_two">#272b33</color>
+    <color name="grey_color">#2C313A</color>
+    <color name="blue_track">#206B7E</color>
+
+</resources>

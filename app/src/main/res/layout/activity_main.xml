@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_doff_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_above="@id/linear_number"
+        android:gravity="bottom|end"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp">
+
+        <TextView
+            android:id="@+id/tv_expressions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/number"
+            android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/number"
+            android:textSize="@dimen/_32ssp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_number"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout style="@style/LayoutLinearLayout">
+
+            <TextView
+                android:id="@+id/text_clear"
+                style="@style/LayoutTextView"
+                android:text="@string/ce"
+                android:textColor="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/text_open"
+                style="@style/LayoutTextView"
+                android:text="@string/open_bracket"
+                android:textColor="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/text_close"
+                style="@style/LayoutTextView"
+                android:text="@string/closing_bracket"
+                android:textColor="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/text_distribution"
+                style="@style/LayoutTextView"
+                android:text="@string/distribution"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutLinearLayout">
+
+            <TextView
+                android:id="@+id/text_number_seven"
+                style="@style/LayoutTextView"
+                android:text="@string/seven"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_eight"
+                style="@style/LayoutTextView"
+                android:text="@string/eight"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_nine"
+                style="@style/LayoutTextView"
+                android:text="@string/nine"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_multiplication"
+                style="@style/LayoutTextView"
+                android:text="@string/multiplication"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutLinearLayout">
+
+            <TextView
+                android:id="@+id/text_number_four"
+                style="@style/LayoutTextView"
+                android:text="@string/four"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_five"
+                style="@style/LayoutTextView"
+                android:text="@string/five"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_six"
+                style="@style/LayoutTextView"
+                android:text="@string/six"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_subtraction"
+                style="@style/LayoutTextView"
+                android:text="@string/subtraction"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutLinearLayout">
+
+            <TextView
+                android:id="@+id/text_number_one"
+                style="@style/LayoutTextView"
+                android:text="@string/one"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_two"
+                style="@style/LayoutTextView"
+                android:text="@string/two"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_number_three"
+                style="@style/LayoutTextView"
+                android:text="@string/three"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_increase"
+                style="@style/LayoutTextView"
+                android:text="@string/increase"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutLinearLayout">
+
+            <LinearLayout
+                android:id="@+id/back_space_button"
+                style="@style/LayoutTextView"
+                android:textColor="@android:color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:drawableStartCompat="@drawable/ic_backspace"
+                    app:drawableTint="@color/number" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_number_zero"
+                style="@style/LayoutTextView"
+                android:text="@string/zero"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_coma"
+                style="@style/LayoutTextView"
+                android:text="@string/coma"
+                android:textColor="@color/number" />
+
+            <TextView
+                android:id="@+id/text_together_with"
+                style="@style/LayoutTextView"
+                android:text="@string/together_with"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:padding="@dimen/_12sdp"
+        android:thumb="@drawable/ic_dark_mode_thumb"
+        android:thumbTint="@color/thumb_tint_moon"
+        android:track="@drawable/track_dark_mode"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</RelativeLayout>
