@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.nandaadisaputra.kalkulator"
+    namespace = "com.natanaelanantasatrio.kalkulator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.nandaadisaputra.kalkulator"
+        applicationId = "com.natanaelanantasatrio.kalkulator"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -36,6 +36,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
